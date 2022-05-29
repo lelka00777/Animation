@@ -17,7 +17,7 @@ function App() {
                 <Circle/>
 
 
-          {/*<ButtonAnimation />*/}
+          <ButtonAnimation />
 
 
         </div>
