@@ -14,7 +14,7 @@ function App() {
             <NeonSocialIcon />
 
 
-                {/*<Circle/>*/}
+                <Circle/>
 
 
           {/*<ButtonAnimation />*/}
