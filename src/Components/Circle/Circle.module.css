@@ -1,0 +1,61 @@
+.App {
+    text-align: center;
+    background-color: black;
+    border: 1px solid #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.motion {
+    background: #000000;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*бордер для шарика*/
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ffffff;
+    position: absolute;
+    border-radius: 50%;
+    animation: circleAnimation 8s
+    linear infinite;
+}
+
+/*шарик*/
+.circle::before{
+    content: '';
+    position: absolute;
+    top: -10px;
+    /*top: -10px;*/
+    left: 50%;
+    transform:translateX(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #04fc43;
+    box-shadow: 0 0 20px #04fc43, 0 0 60px  #04fc43;
+}
+
+@keyframes circleAnimation {
+    0% {
+        transform: rotate(0deg);
+    }50%{
+         transform: rotate(-180deg)
+     }
+    100%{
+        transform: rotate(360deg);
+
+
+    }
+}
+
+
+
+
