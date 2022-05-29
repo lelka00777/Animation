@@ -1,26 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import {Circle} from "./Components/Circle/Circle";
+import {NeonSocialIcon} from "./Components/NeonSocialIcon/NeonSocialIcon";
+import {ButtonAnimation} from "./Components/ButtonAnimation/ButtonAnimation";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+    return (
+        <div className="App">
+
+            <NeonSocialIcon />
+
+
+                {/*<Circle/>*/}
+
+
+          {/*<ButtonAnimation />*/}
+
+
+        </div>
+
+
+    );
 }
 
 export default App;
+
+
