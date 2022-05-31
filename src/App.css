@@ -1,9 +1,10 @@
+/*
 .App {
   width: 700px;
   margin: 20px auto;
   text-align: center;
   background-color: black;
-  /*border: 1px solid #ffffff;*/
+  !*border: 1px solid #ffffff;*!
   position: relative;
   display: flex;
   justify-content: center;
@@ -14,3 +15,4 @@ body {
   background: black;
 
 }
+*/
