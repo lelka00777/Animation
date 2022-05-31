@@ -11,11 +11,13 @@ function App() {
 
     return (
         <div className="App">
-{/*
-            <NeonSocialIcon/>
             <Circle/>
-            <ButtonAnimation/>*/}
-             <Ball />
+            <NeonSocialIcon/>
+            <Ball />
+            <ButtonAnimation/>
+
+
+
 
         </div>
 

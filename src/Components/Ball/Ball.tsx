@@ -7,7 +7,7 @@ export const Ball = () => {
             <div className={s.ball}>
 
             </div>
-            {/*<div className={s.ball_1}></div>*/}
+
 
         </div>
     );
