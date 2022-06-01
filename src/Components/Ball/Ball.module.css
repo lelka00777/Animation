@@ -4,9 +4,12 @@ body {
     background: black;
     align-items: center;
     height: 100vh;
+    padding: 20px;
 }
 
 .ball {
+   color: black;
+
     position: relative;
     bottom: 100px;
     left: calc(100% - 70px);
@@ -18,6 +21,7 @@ body {
 }
 
 .ball::after {
+
     position: absolute;
     content: '';
     top: 50px;
@@ -29,6 +33,9 @@ body {
 }
 
 .bar {
+    text-align:center;
+
+    color: #faf9f9;
     width: 500px;
     height: 25px;
     background: #a760ff;
